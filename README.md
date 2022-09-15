@@ -1,41 +1,35 @@
-# Arcadia Finance Lending Core
+# Arcadia Finance Paper Trading Competition
 
 ## Name
-Arcadia Finance Lending Core
+Arcadia Finance Paper Trading Competition
 
 ## Description
 Arcadia Finance is an Open Source protocol building solutions for NFTs and digital assets in general, within collateral markets and the broader DeFi ecosystem.
 Our first product, Arcadia Finance’s lending solution, facilitates collateral-backed loans. Users can deposit any combination of ERC20/721/1155/xxxx assets in their user-controlled vault and receive a credit line against it.
 We aim to provide liquidity for all quality assets of our users. Ranging from ERC20’s, NFTs in the form of art and collectables, (Uni v2) LP positions, Uni V3 positions, yield-bearing tokens, ...!
 
-This repo holds the Arcadia Finance lending core smart contracts.
+This repo holds the Arcadia Finance smart contracts as used in our testnet protocol. This testnet protocol was launched on the 11th of July 2022 in the form of a paper trading competition. Users can still find it at https://app.arcadia.finance.
 
 
 ## Usage
 The lending core contracts are deployed on Rinkeby testnet. 
 The following contracts are deployed:
-- **factory**: 0x0e78Af9e99d0583A95b3BE27a960D3F30C1Be667
-- **vaultLogic**: 0xab161720665777A7e0Aa23d09a54130010196EB3
-- **mainReg**: 0x4d3b7B19e5d548e22c752e978e4Dd2700363A15B
-- **erc20sub**: 0x9832078c6052ACf2fbd2DBC2dB6494cd2a42744E
-- **erc721sub**: 0x0da5a17594e747E8795A5471C18f7F4e16bba031
-- **oracleHub**: 0x3e2B038b01c8954FfD811e441D69921E9C2AE3fa
-- **irm**: 0x36F46AcdaD3891f23043CcE0741596DF127DE6C5
-- **liquidator**: 0x44Fd3F2525752036D51b6c09638c5D5495fb7634
-- **stableUsd**: 0x55586AcEDe85Bd5fDeBA9009C18351f96E021982
-- **stableEth**: 0xd6E4D2a63ed45eDf32EdA34456439c3A0218E6C4
-- **weth**: 0x68817D29cDC29A1D0e96E9b21E812B044323d8D9
-- **tokenShop**: 0x2bBC8e7002D8dc289274Ed0902a7F8F0E7a6A3A2
+Deploy helper: 0xeB399634AC432de5CaaC9eBe1072bf8e9caDdfDE
+- **0:**address: factory 0x73241080422cb5c05Ae7abaB5B641A2eE159fcd3
+- **1:**address: vaultLogic 0xf14C152D7650Eb04BDe074A0F20b6e4dB211CCB1
+- **2:**address: mainReg 0xf0476dC358d41d4C085f549D129879946872996D
+- **3:**address: erc20sub 0x06e21494191241214dbE948D4dc713C6583DD35B
+- **4:**address: erc721sub 0x9F6304B508f2d16B10fc5c9d3f9ba17659550Ac7
+- **5:**address: oracleHub 0x0D56E672460EA925c3a056bBd3Da0836e43D08e0
+- **6:**address: irm 0x17Bc4939e59ddD0902323C7AB0E93Df76C8aFdAA
+- **7:**address: liquidator 0xff9a9c66854B91394c58dEdFF701953e6985abcb
+- **8:**address: stableUsd 0x698f2F22E95E6835878bE9d2f90536C1BA800107
+- **9:**address: stableEth 0x7BC3433648eD29960312530573B609FB3ec90DC9
+- **10:**address: weth 0x78352e3b41f6FCe9ACCc687A46D972de6e6470Df
+- **11:**address: tokenShop 0xb08ae690f3B1b9A752fC3c11de6aBf6964E6228A
 
 ## Support
 Support questions can be directed to our [Discord](https://discord.gg/PXcr8SEeTH). 
-
-## Roadmap
-To be filled later.
-
-## Contributing
-We are open to people looking to make contributions, both on the core contracts and on the front-end/dashboards.
-If you'd like to get in touch with us before, please join [our Discord](https://discord.gg/PXcr8SEeTH) or send a mail to dev `[at]` arcadia.finance.
 
 ## License
 The license can be found [here](LICENSE.md).
